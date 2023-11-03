@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #001e30;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+#cityInput {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #ecf0f1;
+    color: #3498db;
+    border-radius: 5px;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+#weatherData {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#location, #description {
+    font-size: 20px;
+}
+
+#temperature {
+    font-size: 100px; /* Increase font size for temperature */
+    font-weight: bold; /* Make the temperature bold */
+    margin: 10px 0;
+}
